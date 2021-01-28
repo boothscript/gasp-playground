@@ -5,34 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/styles/compiled.css" rel="stylesheet" />
     <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-    <script src="./gasp-animations.js"></script>
   </head>
   <body>
-    <div id="site-container" class="md:container md:mx-auto bg-blue-500">
+    <div
+      id="site-container"
+      class="lg:container lg:mx-auto bg-blue-500 h-screen"
+    >
       <header>
-        <nav>
-          <div id="logo">
-            <ul id="nav-links">
-              <li class="text-red-500"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
+        <nav class="flex justify-between align-center">
+          <div id="logo" class="text-xl">MySite</div>
+          <ul id="nav-links" class="flex justify-end">
+            <li class="pr-2"><a href="#">Home</a></li>
+            <li class="pr-2"><a href="#">About</a></li>
+            <li class="pr-2"><a href="#">Contact</a></li>
+          </ul>
         </nav>
       </header>
-      <main>
-        <h1>MySite</h1>
+      <main class="container h-full flex items-center justify-center">
+        <h1>This is a Test</h1>
       </main>
     </div>
 
     <div id="intro">
-      <div id="into-background" class="bg-black-100">
-        <div id="intro-text">
-          <p>Welcome.</p>
+      <div
+        id="into-background"
+        class="w-screen h-screen bg-black absolute top-0 left-0 z-50 flex flex-col justify-center items-center"
+      >
+        <div id="intro-text-container " class="overflow-hidden">
+          <p
+            id="intro-text"
+            class="inline-block text-4xl transform translate-y-full"
+          >
+            Welcome
+          </p>
+        </div>
+        <div id="intro-text-container " class="overflow-hidden">
+          <p
+            id="intro-text"
+            class="inline-block text-4xl transform translate-y-full"
+          >
+            Lovely
+          </p>
+        </div>
+        <div id="intro-text-container " class="overflow-hidden">
+          <p
+            id="intro-text"
+            class="inline-block text-4xl transform translate-y-full"
+          >
+            People 👋
+          </p>
         </div>
       </div>
       <div id="slider"></div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="./gasp-animations.js"></script>
   </body>
 </html>
