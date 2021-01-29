@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&display=swap"
+      rel="stylesheet"
+    />
     <link href="/styles/compiled.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <div
-      id="site-container"
-      class="lg:container lg:mx-auto bg-blue-500 h-screen"
-    >
-      <header>
-        <nav class="flex justify-between align-center">
-          <div id="logo" class="text-xl">MySite</div>
+    <div id="site-container" class="v-screen h-screen bg-hero-img">
+      <header class="bg-gray-200 py-8">
+        <nav class="flex justify-between align-center font-nav px-6">
+          <div id="logo" class="text-2xl">MySite</div>
           <ul id="nav-links" class="flex justify-end">
             <li class="pr-2"><a href="#">Home</a></li>
             <li class="pr-2"><a href="#">About</a></li>
@@ -21,15 +23,17 @@
           </ul>
         </nav>
       </header>
-      <main class="container h-full flex items-center justify-center">
-        <h1>This is a Test</h1>
+      <main
+        class="h-full w-screen flex items-center justify-center text-center"
+      >
+        <h1 class="font-hero text-yellow-400 text-7xl">Hero Headline</h1>
       </main>
     </div>
 
     <div id="intro">
       <div
         id="intro-background"
-        class="w-screen h-screen bg-black fixed top-0 left-0 flex flex-col justify-center items-center"
+        class="w-screen h-screen bg-black text-white fixed top-0 left-0 flex flex-col justify-center items-center"
       >
         <div id="intro-text-container " class="overflow-hidden">
           <p

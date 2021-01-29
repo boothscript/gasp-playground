@@ -5543,6 +5543,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-hero-img {
+  background-image: url('/img/background-image.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -12535,6 +12539,14 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-nav {
+  font-family: Bebas Neue, sans-serif;
+}
+
+.font-hero {
+  font-family: Carter One, sans-serif;
 }
 
 .font-thin {
@@ -37484,6 +37496,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-hero-img {
+    background-image: url('/img/background-image.jpg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -44476,6 +44492,14 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-nav {
+    font-family: Bebas Neue, sans-serif;
+  }
+
+  .sm\:font-hero {
+    font-family: Carter One, sans-serif;
   }
 
   .sm\:font-thin {
@@ -69347,6 +69371,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-hero-img {
+    background-image: url('/img/background-image.jpg');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -76339,6 +76367,14 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-nav {
+    font-family: Bebas Neue, sans-serif;
+  }
+
+  .md\:font-hero {
+    font-family: Carter One, sans-serif;
   }
 
   .md\:font-thin {
@@ -101210,6 +101246,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-hero-img {
+    background-image: url('/img/background-image.jpg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -108202,6 +108242,14 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-nav {
+    font-family: Bebas Neue, sans-serif;
+  }
+
+  .lg\:font-hero {
+    font-family: Carter One, sans-serif;
   }
 
   .lg\:font-thin {
@@ -133073,6 +133121,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-hero-img {
+    background-image: url('/img/background-image.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -140065,6 +140117,14 @@ video {
 
   .xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-nav {
+    font-family: Bebas Neue, sans-serif;
+  }
+
+  .xl\:font-hero {
+    font-family: Carter One, sans-serif;
   }
 
   .xl\:font-thin {
@@ -164936,6 +164996,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-hero-img {
+    background-image: url('/img/background-image.jpg');
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -171928,6 +171992,14 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-nav {
+    font-family: Bebas Neue, sans-serif;
+  }
+
+  .\32xl\:font-hero {
+    font-family: Carter One, sans-serif;
   }
 
   .\32xl\:font-thin {
