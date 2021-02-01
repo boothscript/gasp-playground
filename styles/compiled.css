@@ -5544,7 +5544,7 @@ video {
 }
 
 .bg-hero-img {
-  background-image: url('/img/background-image.jpg');
+  background-image: url('img/background-image.jpg');
 }
 
 .from-transparent {
@@ -37497,7 +37497,7 @@ video {
   }
 
   .sm\:bg-hero-img {
-    background-image: url('/img/background-image.jpg');
+    background-image: url('img/background-image.jpg');
   }
 
   .sm\:from-transparent {
@@ -69372,7 +69372,7 @@ video {
   }
 
   .md\:bg-hero-img {
-    background-image: url('/img/background-image.jpg');
+    background-image: url('img/background-image.jpg');
   }
 
   .md\:from-transparent {
@@ -101247,7 +101247,7 @@ video {
   }
 
   .lg\:bg-hero-img {
-    background-image: url('/img/background-image.jpg');
+    background-image: url('img/background-image.jpg');
   }
 
   .lg\:from-transparent {
@@ -133122,7 +133122,7 @@ video {
   }
 
   .xl\:bg-hero-img {
-    background-image: url('/img/background-image.jpg');
+    background-image: url('img/background-image.jpg');
   }
 
   .xl\:from-transparent {
@@ -164997,7 +164997,7 @@ video {
   }
 
   .\32xl\:bg-hero-img {
-    background-image: url('/img/background-image.jpg');
+    background-image: url('img/background-image.jpg');
   }
 
   .\32xl\:from-transparent {
