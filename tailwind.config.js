@@ -1,10 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true,
+    content: ['./src/**/*.html', './src/**/*.js'],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        'hero-img': "url('img/background-image.jpg')",
+        'hero-img': "url('../img/background-image.jpg')",
       }),
       fontFamily: {
         nav: ['Bebas Neue', 'sans-serif'],
