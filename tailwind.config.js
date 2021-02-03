@@ -1,6 +1,5 @@
 module.exports = {
   purge: {
-    enabled: true,
     content: ['./**/*.html', './**/*.js'],
   },
   darkMode: false, // or 'media' or 'class'
@@ -13,6 +12,10 @@ module.exports = {
         nav: ['Bebas Neue', 'sans-serif'],
         hero: ['Carter One', 'sans-serif'],
       },
+    },
+    colors: {
+      purple: '#3A1772',
+      'purple-dark': '#2B1155',
     },
   },
   variants: {

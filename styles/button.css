@@ -1,0 +1,59 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #3a1772;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: block;
+  position: relative;
+  background: none;
+  border: 1px solid white;
+  padding: 1rem 3rem;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 16px;
+}
+button:focus {
+  outline: none;
+}
+button::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #2b1155;
+  position: absolute;
+  z-index: -1;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+.button-text {
+  overflow: hidden;
+}
+#icon {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.4rem;
+}
+#icon svg {
+  stroke-dasharray: 0 90;
+}
+#next {
+  margin-top: 0.5rem;
+  color: white;
+  font-size: 12px;
+
+  text-align: center;
+  clip-path: circle(0% at 50% 50%);
+}
